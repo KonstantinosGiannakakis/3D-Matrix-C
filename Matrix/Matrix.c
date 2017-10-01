@@ -11,7 +11,7 @@ int main(void)
 
 	printf("Give the dimensions (X Y Z) of the array: ");
 
-	scanf_s("%d%d%d", &x, &y, &z);
+	scanf("%d%d%d", &x, &y, &z);
 	
 	
 	matrix = (int***)malloc(x * sizeof(int**));
